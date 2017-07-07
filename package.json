@@ -1,0 +1,19 @@
+{
+  "name": "tampu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec node server/index.js"
+  },
+  "author": "Jose Naranjo <naranjja@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "http": "0.0.0",
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.29",
+    "pug": "^2.0.0-rc.2",
+    "semantic-ui": "^2.2.10"
+  }
+}

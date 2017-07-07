@@ -1,0 +1,24 @@
+extends ./../app
+block content
+	
+	script(type='text/javascript' src='/components/jquery.rwdImageMaps.min.js')
+	
+	.ui.modal#firstModal
+	.ui.modal#secondModal
+	
+	img(src='images/mapa.png', alt='', usemap='#Map', style='width:100%')
+	map#Map(name='Map')
+		area(id='Barra A' shape='rect' coords='0,84,84,151')
+		area(id='Barra B' shape='rect' coords='114,85,194,147')
+		area(id='Barra C' shape='rect' coords='226,86,307,148')
+		area(id='Box 2' shape='rect' coords='3,231,137,377')
+		area(id='Box 1' shape='rect' coords='174,231,303,380')
+		area(id='Mesa 6' shape='rect' coords='344,232,498,373')
+		area(id='Mesa 4' shape='rect' coords='527,230,681,374')
+		area(id='Mesa 2' shape='rect' coords='711,235,865,374')
+		area(id='Mesa 5' shape='rect' coords='345,4,497,147')
+		area(id='Mesa 3' shape='rect' coords='529,6,684,147')
+		area(id='Mesa 1' shape='rect' coords='710,3,864,147')
+		area(id='Al paso' shape='rect' coords='905,3,965,375')
+			
+	script(type='text/javascript' src='scripts/record-inflow.js')

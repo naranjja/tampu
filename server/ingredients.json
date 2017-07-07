@@ -1,0 +1,17 @@
+[
+	{
+		"_id": "lechuga",
+		"price": 2,
+		"unit": "unidades"
+	},
+	{
+		"_id": "tomate",
+		"price": 3,
+		"unit": "kg"
+	},
+	{
+		"_id": "palta",
+		"price": 5,
+		"unit": "kg"
+	}
+]
